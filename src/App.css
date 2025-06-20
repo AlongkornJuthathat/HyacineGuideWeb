@@ -1,0 +1,112 @@
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+i {
+  font-family: "Bitter";
+  color: white;
+  font-size: 1.15rem;
+}
+
+p {
+  font-family: "Signika Negative";
+  color: white;
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+}
+
+li {
+  font-family: "Signika Negative";
+  color: white;
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+}
+
+.grid-container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.left-side-page{
+  
+}
+
+.right-side-page{
+  
+}
+
+.large-box {
+  background-color: #fe7598;
+  border-radius: 1.25rem;
+}
+
+.large-box-text {
+  color: #450117;
+  font-family: "Archivo Black";
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.medium-box {
+  background-color: #e43a65;
+  border-radius: 1.125rem;
+}
+
+.medium-box-text {
+  color: #ffa7c3;
+  font-family: "Archivo Black";
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.small-box {
+  background-color: #9a133e;
+  border-radius: 1rem;
+}
+
+.small-box-text {
+  color: #fd97b0;
+  font-family: "Archivo Black";
+  margin: auto;
+  text-align: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+#updated-version {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+#hyacine-splash-art {
+  width: 100%;
+}
+
+#introduction-text-description {
+  padding-bottom: 3rem;
+}
+
+#hyacine-infographic {
+  width: 70%;
+}
+
+.grid-container-pro-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
