@@ -1,0 +1,50 @@
+:root {
+  --extremely-dark-red: #380012;
+  --very-dark-red: #56011c;
+  --dark-red: #9a133e;
+  --dark-pink: #e43a65;
+  --pink: #fe7598;
+  --light-pink: #ffa7c3;
+  --gold: #FFA500;
+}
+
+.accordion-container {
+  background-color: var(--very-dark-red);
+  border-radius: 10px;
+  border: 2px solid var(--dark-red);
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.accordion-toggle {
+  background-color: var(--dark-red);
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.arrow {
+  transition: transform 0.2s ease;
+}
+
+.arrow.open {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  background-color: var(--extremely-dark-red);
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid var(--dark-red);
+}
