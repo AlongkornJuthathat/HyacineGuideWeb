@@ -1,4 +1,8 @@
 html{
   background-color: #380012;
   scroll-behavior: smooth;
-};
+}
+
+body {
+  overflow-x: hidden;
+}
