@@ -425,3 +425,29 @@ table.table-info-block>tfoot:not(:last-child) {
 .footer {
   text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .table-of-content {
+    display: none;
+  }
+
+  .table-info-image img {
+    width: 120px;
+  }
+
+  .table-info-image .combine-2PC{
+    width: 50px;
+  }
+
+  .table-info-image .relic{
+    width: 80px;
+  }
+
+  .table-info-image .sustainer-icon{
+    width: 70px;
+  }
+
+  .grid-container {
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  }
+}

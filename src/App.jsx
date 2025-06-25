@@ -955,7 +955,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/warrior_goddess_relic.png" width="120"></img>
+                <img class="relic" src="src/assets/warrior_goddess_relic.png" width="120"></img>
                 <br></br>
                 <span><p><strong>4-PC Warrior Goddess of Sun and Thunder</strong></p></span>
               </th>
@@ -966,10 +966,10 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/messenger_relic.png" width="70"></img>
-                <img src="src/assets/sacerdos_relic.png" width="70"></img>
-                <img src="src/assets/passerby_relic.png" width="70"></img>
-                <img src="src/assets/longevous_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/messenger_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/sacerdos_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/passerby_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/longevous_relic.png" width="70"></img>
                 <br></br>
                 <span><p><strong>2-PC combinations</strong></p></span>
               </th>
@@ -993,7 +993,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/grove_planar.png" width="120"></img>
+                <img class="relic" src="src/assets/grove_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Giant Tree of Rapt Brooding</strong></p></span>
               </th>
@@ -1003,7 +1003,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/aidonia_planar.png" width="120"></img>
+                <img class="relic" src="src/assets/aidonia_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Bone Collection's Serene Demesne</strong></p></span>
               </th>
@@ -1013,7 +1013,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/brokenkeel_planar.png" width="120"></img>
+                <img class="relic" src="src/assets/brokenkeel_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Broken Keel</strong></p></span>
               </th>
@@ -1223,7 +1223,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/warrior_goddess_relic.png" width="120"></img>
+                <img class="relic" src="src/assets/warrior_goddess_relic.png" width="120"></img>
                 <br></br>
                 <span><p><strong>4-PC Warrior Goddess of Sun and Thunder</strong></p></span>
               </th>
@@ -1234,7 +1234,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/hero_relic.png" width="120"></img>
+                <img class="relic" src="src/assets/hero_relic.png" width="120"></img>
                 <br></br>
                 <span><p><strong>4-PC Hero of Triumphant Song</strong></p></span>
               </th>
@@ -1245,10 +1245,10 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/messenger_relic.png" width="70"></img>
-                <img src="src/assets/sacerdos_relic.png" width="70"></img>
-                <img src="src/assets/passerby_relic.png" width="70"></img>
-                <img src="src/assets/longevous_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/messenger_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/sacerdos_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/passerby_relic.png" width="70"></img>
+                <img class="combine-2PC" src="src/assets/longevous_relic.png" width="70"></img>
                 <br></br>
                 <span><p><strong>2-PC combinations</strong></p></span>
               </th>
@@ -1272,7 +1272,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/grove_planar.png" width="120"></img>
+                <img class="relic" src="src/assets/grove_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Giant Tree of Rapt Brooding</strong></p></span>
               </th>
@@ -1282,7 +1282,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/aidonia_planar.png" width="120"></img>
+                <img class="relic" src="src/assets/aidonia_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Bone Collection's Serene Demesne</strong></p></span>
               </th>
@@ -1656,7 +1656,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/Icon_Preservation.webp" width="70"></img>
+                <img class="sustainer-icon" src="src/assets/Icon_Preservation.webp" width="70"></img>
                 <br></br>
                 <span><p><strong>Shielders</strong></p></span>
               </th>
@@ -1666,7 +1666,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/Icon_Abundance.webp" width="70"></img>
+                <img class="sustainer-icon" src="src/assets/Icon_Abundance.webp" width="70"></img>
                 <br></br>
                 <span><p><strong>Healers</strong></p></span>
               </th>
