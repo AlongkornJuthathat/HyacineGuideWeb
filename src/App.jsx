@@ -998,7 +998,7 @@ function App() {
                 <span><p><strong>Giant Tree of Rapt Brooding</strong></p></span>
               </th>
               <td class="table-info-text">
-                <p>Hyacine’s best Planar Ornaments, this Planar was practically tailor-made for Hyacine given how easily she can meet its HP requirement and the fact that it fully buffs her and Little Ica.</p>
+                <p>Hyacine’s best Planar Ornaments, this Planar was practically tailor-made for Hyacine given how easily she can meet its SPD requirement and the fact that it fully buffs her and Little Ica.</p>
               </td>
             </tr>
             <tr>
@@ -1277,7 +1277,7 @@ function App() {
                 <span><p><strong>Giant Tree of Rapt Brooding</strong></p></span>
               </th>
               <td class="table-info-text">
-                <p>Hyacine’s best Planar Ornaments, this Planar was practically tailor-made for Hyacine given how easily she can meet its HP requirement and the fact that it fully buffs her and Little Ica.</p>
+                <p>Hyacine’s best Planar Ornaments, this Planar was practically tailor-made for Hyacine given how easily she can meet its SPD requirement and the fact that it fully buffs her and Little Ica.</p>
               </td>
             </tr>
             <tr>
