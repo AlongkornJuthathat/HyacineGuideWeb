@@ -593,7 +593,7 @@ function App() {
         {/* Hyacine's splash art */}
         <div class="container">
           <div>
-            <img id="hyacine-splash-art" src="src/assets/Hyacine_Character_Splash_Art.webp"/>
+            <img id="hyacine-splash-art" src="/src/assets/Hyacine_Character_Splash_Art.webp"/>
           </div>
         </div>
 
