@@ -12,13 +12,13 @@ function App() {
   const traceContentMap = {
       basic:  <div class="container">
                 <div class="trace-header-grid">
-                  <img id="basic-atk-img" src="src/assets/Basic_ATK.png" width="50" height="50"/>
+                  <img id="basic-atk-img" src="/Basic_ATK.png" width="50" height="50"/>
                   <div class="skill-type">
                     Basic ATK |&nbsp;<em>When Breeze Kisses Cirrus</em>
                   </div>
                 </div>
                 <Accordion title="Trace Description">
-                  <img class="gif" id="basic-atk-gif" src="src/assets/BasicATK.gif" width="50%"/>
+                  <img class="gif" id="basic-atk-gif" src="/BasicATK.gif" width="50%"/>
                   <p><em><strong>When Breeze Kisses Cirrus</strong> [Single Target]</em></p><br></br>
                   <p>
                     Deals Wind DMG equal to
@@ -35,13 +35,13 @@ function App() {
               </div>,
       skill:  <div class="container">
                 <div class="trace-header-grid">
-                  <img id="skill-img" src="src/assets/Skill.png" width="50" height="50"/>
+                  <img id="skill-img" src="/Skill.png" width="50" height="50"/>
                   <div class="skill-type">
                     Skill |&nbsp;<em>Love Over the Rainbow</em>
                   </div>
                 </div>
                 <Accordion title="Trace Description">
-                  <img class="gif" id="skill-gif" src="src/assets/Skill.gif" width="50%"/>
+                  <img class="gif" id="skill-gif" src="/Skill.gif" width="50%"/>
                   <p><em><strong>Love Over the Rainbow</strong> [Restore]</em></p><br></br>
                   <p>
                     <span><u>Summon Memosprite</u> </span>
@@ -65,13 +65,13 @@ function App() {
               </div>,
       ultimate: <div class="container">
                   <div class="trace-header-grid">
-                    <img id="ultimate-img" src="src/assets/Ultimate.png" width="50" height="50"/>
+                    <img id="ultimate-img" src="/Ultimate.png" width="50" height="50"/>
                     <div class="skill-type">
                       Ultimate |&nbsp;<em>We Who Fly Into Twilight</em>
                     </div>
                   </div>
                   <Accordion title="Trace Description">
-                    <img class="gif" id="ultimate-gif" src="src/assets/Ultimate.gif" width="50%"/>
+                    <img class="gif" id="ultimate-gif" src="/Ultimate.gif" width="50%"/>
                     <p><em><strong>We Who Fly Into Twilight</strong> [Support]</em></p><br></br>
                     <p>
                       <span><u>Summon Memosprite</u> </span>
@@ -100,13 +100,13 @@ function App() {
                 </div>,
       talent:   <div class="container">
                   <div class="trace-header-grid">
-                    <img id="talent-img" src="src/assets/Talent.png" width="50" height="50"/>
+                    <img id="talent-img" src="/Talent.png" width="50" height="50"/>
                     <div class="skill-type">
                       Talent |&nbsp;<em>First Light Heals the World</em>
                     </div>
                   </div>
                   <Accordion title="Trace Description">
-                    <img class="gif" id="talent-gif" src="src/assets/Talent.gif" width="50%"/>
+                    <img class="gif" id="talent-gif" src="/talent.gif" width="50%"/>
                     <p><em><strong>First Light Heals the World</strong> [Enhance]</em></p><br></br>
                     <p>
                       The memosprite Little Ica initially has Max HP equal to <strong>50%</strong> of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by
@@ -123,13 +123,13 @@ function App() {
                 </div>,
     technique:  <div class="container">
                   <div class="trace-header-grid">
-                    <img id="technique-img" src="src/assets/Technique.png" width="50" height="50"/>
+                    <img id="technique-img" src="/Technique.png" width="50" height="50"/>
                     <div class="skill-type">
                       Technique |&nbsp;<em>Day So Right, Life So Fine!</em>
                     </div>
                   </div>
                   <Accordion title="Trace Description">
-                    <img class="gif" id="technique-gif" src="src/assets/Technique.gif" width="50%"/>
+                    <img class="gif" id="technique-gif" src="/Technique.gif" width="50%"/>
                     <p><em><strong>Day So Right, Life So Fine!</strong> [Restore]</em></p><br></br>
                     <p>
                       At the start of the next battle, restores HP equal to <strong>30%</strong> of Hyacine's Max HP plus <strong>600 </strong> for all allies and increases their Max HP by <strong>20%</strong> for <strong>2</strong> turn(s).
@@ -144,13 +144,13 @@ function App() {
                 </div>,
     a2:         <div class="container">
                   <div class="trace-header-grid">
-                    <img id="a2-img" src="src/assets/A2.png" width="50" height="50"/>
+                    <img id="a2-img" src="/A2.png" width="50" height="50"/>
                     <div class="skill-type">
                       A2 Bonus Ability |&nbsp;<em>Gloomy Grin</em>
                     </div>
                   </div>
                   <Accordion title="Trace Description">
-                    <img class="gif" id="a2-gif" src="src/assets/A2.gif" width="50%"/>
+                    <img class="gif" id="a2-gif" src="/A2.gif" width="50%"/>
                     <p><em><strong>Gloomy Grin</strong></em></p><br></br>
                     <p>
                       Increases Hyacine and Little Ica's CRIT Rate by
@@ -170,13 +170,13 @@ function App() {
                 </div>,
     a4:         <div class="container">
                   <div class="trace-header-grid">
-                    <img id="a4-img" src="src/assets/A4.png" width="50" height="50"/>
+                    <img id="a4-img" src="/A4.png" width="50" height="50"/>
                     <div class="skill-type">
                       A4 Bonus Ability |&nbsp;<em>Stormy Caress</em>
                     </div>
                   </div>
                   <Accordion title="Trace Description">
-                    <img class="gif" id="a2-gif" src="src/assets/A4.gif" width="50%"/>
+                    <img class="gif" id="a2-gif" src="/A4.gif" width="50%"/>
                     <p><em><strong>Stormy Caress</strong></em></p><br></br>
                     <p>
                       Increases Hyacine's Effect RES by
@@ -195,13 +195,13 @@ function App() {
                 </div>,
     a6:         <div class="container">
                   <div class="trace-header-grid">
-                    <img id="a6-img" src="src/assets/A6.png" width="50" height="50"/>
+                    <img id="a6-img" src="/A6.png" width="50" height="50"/>
                     <div class="skill-type">
                       A6 Bonus Ability |&nbsp;<em>Tempestuous Halt</em>
                     </div>
                   </div>
                   <Accordion title="Trace Description">
-                    <img class="gif" id="a6-gif" src="src/assets/A6.gif" width="50%"/>
+                    <img class="gif" id="a6-gif" src="/A6.gif" width="50%"/>
                     <p><em><strong>Tempestuous Halt</strong></em></p><br></br>
                     <p>
                       When Hyacine's SPD exceeds
@@ -230,13 +230,13 @@ function App() {
   const memoTraceContentMap = {
       memo_skill:   <div class="container">
                       <div class="trace-header-grid">
-                        <img id="memo-skill-img" src="src/assets/memo_skill.png" width="50" height="50"/>
+                        <img id="memo-skill-img" src="/memo_skill.png" width="50" height="50"/>
                         <div class="skill-type">
                           Memosprite Skill |&nbsp;<em>Rainclouds, Time to Go!</em>
                         </div>
                       </div>
                       <Accordion title="Memosprite Trace Description">
-                        <img class="gif" id="memo-skill-gif" src="src/assets/MemoSkill.gif" width="50%"/>
+                        <img class="gif" id="memo-skill-gif" src="/MemoSkill.gif" width="50%"/>
                         <p><em><strong>Rainclouds, Time to Go!</strong> [AoE]</em></p><br></br>
                         <p>
                           Deals Wind DMG to all enemies equal to
@@ -253,13 +253,13 @@ function App() {
                     </div>,
       memo_talent1:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent1-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent1-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Memosprite Talent |&nbsp;<em>Take Sky in Hand</em>
                           </div>
                         </div>
                         <Accordion title="Memosprite Trace Description">
-                          <img class="gif" id="memo_talent1-gif" src="src/assets/memo_talent1.gif" width="50%"/>
+                          <img class="gif" id="memo_talent1-gif" src="/memo_talent1.gif" width="50%"/>
                           <p><em><strong>Take Sky in Hand</strong> [Restore]</em></p><br></br>
                           <p>
                             Little Ica's SPD remains at 0, is immune to <u>debuffs</u>, and they will not appear on the Action Order.
@@ -285,13 +285,13 @@ function App() {
                       </div>,
       memo_talent2:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent2-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent2-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Memosprite Talent |&nbsp;<em>Soar, Unto the Sunlight</em>
                           </div>
                         </div>
                         <Accordion title="Memosprite Trace Description">
-                          <img class="gif" id="memo_talent2-gif" src="src/assets/memo_talent2.gif" width="50%"/>
+                          <img class="gif" id="memo_talent2-gif" src="/memo_talent2.gif" width="50%"/>
                           <p><em><strong>Soar, Unto the Sunlight</strong> [Enhance]</em></p><br></br>
                           <p>
                             When summoned, additionally regenerates <strong>15</strong> Energy for Hyacine. When first summoned, additionally regenerates <strong>30</strong> Energy.
@@ -306,13 +306,13 @@ function App() {
                       </div>,
       memo_talent3:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent3-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent3-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Memosprite Talent |&nbsp;<em>Fall, Then Take Wing</em>
                           </div>
                         </div>
                         <Accordion title="Memosprite Trace Description">
-                          <img class="gif" id="memo_talent3-gif" src="src/assets/memo_talent3.gif" width="50%"/>
+                          <img class="gif" id="memo_talent3-gif" src="/memo_talent3.gif" width="50%"/>
                           <p><em><strong>Fall, Then Take Wing</strong> [Enhance]</em></p><br></br>
                           <p>
                             Upon disappearing, <u>advances the action</u> of Hyacine by <strong>30%</strong>.
@@ -331,13 +331,13 @@ function App() {
     const eidolonContentMap = {
       eidolon1:   <div class="container">
                       <div class="trace-header-grid">
-                        <img id="memo-skill-img" src="src/assets/memo_skill.png" width="50" height="50"/>
+                        <img id="memo-skill-img" src="/memo_skill.png" width="50" height="50"/>
                         <div class="skill-type">
                           Eidolon 1 |&nbsp;<em>Cradle the Candle of Night</em>
                         </div>
                       </div>
                       <Accordion title="Eidolon Description">
-                        <img class="gif" src="src/assets/E1_art.png" width="30%"/>
+                        <img class="gif" src="/E1_art.png" width="30%"/>
                         <p><em><strong>Cradle the Candle of Night</strong></em></p><br></br>
                         <p>
                           While Hyacine is in the "After Rain" state, all ally targets additionally increase their Max HP by
@@ -356,13 +356,13 @@ function App() {
                     </div>,
       eidolon2:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent1-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent1-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Eidolon 2 |&nbsp;<em>Come Sit in My Courtyard</em>
                           </div>
                         </div>
                         <Accordion title="Eidolon Description">
-                          <img class="gif" src="src/assets/E2_art.webp" width="30%"/>
+                          <img class="gif" src="/E2_art.webp" width="30%"/>
                           <p><em><strong>Come Sit in My Courtyard</strong></em></p><br></br>
                           <p>
                             When any ally target's HP decreases, this unit's SPD increases by
@@ -381,13 +381,13 @@ function App() {
                       </div>,
       eidolon3:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent2-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent2-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Eidolon 3 |&nbsp;<em>Depart, Unto the Sun!</em>
                           </div>
                         </div>
                         <Accordion title="Eidolon Description">
-                          <img class="gif" src="src/assets/E3_art.webp" width="30%"/>
+                          <img class="gif" src="/E3_art.webp" width="30%"/>
                           <p><em><strong>Depart, Unto the Sun!</strong></em></p><br></br>
                           <p>
                             Ultimate Lv. +2, up to a maximum of Lv.
@@ -409,13 +409,13 @@ function App() {
                       </div>,
       eidolon4:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent3-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent3-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Eidolon 4 |&nbsp;<em>Sunlit Amber, Yours to Keep</em>
                           </div>
                         </div>
                         <Accordion title="Eidolon Description">
-                          <img class="gif" src="src/assets/E4_art.webp" width="30%"/>
+                          <img class="gif" src="/E4_art.webp" width="30%"/>
                           <p><em><strong>Sunlit Amber, Yours to Keep</strong></em></p><br></br>
                           <p>
                             The "Tempestuous Halt" Trace is enhanced. For every
@@ -433,13 +433,13 @@ function App() {
                       </div>,
       eidolon5:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent3-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent3-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Eidolon 5 |&nbsp;<em>Twilight Drapes the Tide</em>
                           </div>
                         </div>
                         <Accordion title="Eidolon Description">
-                          <img class="gif" src="src/assets/E5_art.webp" width="30%"/>                   
+                          <img class="gif" src="/E5_art.webp" width="30%"/>                   
                           <p><em><strong>Twilight Drapes the Tide</strong></em></p><br></br>
                           <p>
                             Skill Lv. +2, up to a maximum of Lv.
@@ -461,13 +461,13 @@ function App() {
                       </div>,
       eidolon6:   <div class="container">
                         <div class="trace-header-grid">
-                          <img id="memo-talent3-img" src="src/assets/memo_talent.png" width="50" height="50"/>
+                          <img id="memo-talent3-img" src="/memo_talent.png" width="50" height="50"/>
                           <div class="skill-type">
                             Eidolon 6 |&nbsp;<em>O Sky, Heed My Plea</em>
                           </div>
                         </div>
                         <Accordion title="Eidolon Description">
-                          <img class="gif" src="src/assets/E6_art.webp" width="30%"/>
+                          <img class="gif" src="/E6_art.webp" width="30%"/>
                           <p><em><strong>O Sky, Heed My Plea</strong></em></p><br></br>
                           <p>
                             Little Ica uses Memosprite Skill and changes the amount of Healing tally cleared to
@@ -626,7 +626,7 @@ function App() {
         <div class="block-spacer-large"></div>
         <div class="container">
           <div class="infographic">
-            <img id="hyacine-infographic" src="src/assets/hyacine-infographic.png"/>
+            <img id="hyacine-infographic" src="/Hyacine-infographic.png"/>
             <div class="block-spacer-small"></div>
             <p>Credits to: KQM</p>
           </div>
@@ -799,15 +799,15 @@ function App() {
         <div class="trace-priority-box">
           <div class="trace-priority-icon-grid">
             <span></span>
-            <img src="src/assets/memo_talent.png" width="70" height="70"></img>
+            <img src="/memo_talent.png" width="70" height="70"></img>
             <span>=</span>
-            <img src="src/assets/Ultimate.png" width="70" height="70"></img>
+            <img src="/Ultimate.png" width="70" height="70"></img>
             <span>&gt;</span>
-            <img src="src/assets/Skill.png" width="70" height="70"></img>
+            <img src="/Skill.png" width="70" height="70"></img>
             <span>≥</span>
-            <img src="src/assets/memo_skill.png" width="70" height="70"></img>
+            <img src="/memo_skill.png" width="70" height="70"></img>
             <span>=</span>
-            <img src="src/assets/Talent.png" width="70" height="70"></img>
+            <img src="/Talent.png" width="70" height="70"></img>
             <span></span>
             </div>
             <div class="trace-priority-text">
@@ -889,7 +889,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/hyacine_light_cone.webp" width="175"></img>
+                <img src="/hyacine_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Long May Rainbows Adorn the Sky</i></strong></span>
               </th>
@@ -901,7 +901,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/aglaea_light_cone.webp" width="175"></img>
+                <img src="/aglaea_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Time Woven Into Gold</i></strong></span>
               </th>
@@ -912,7 +912,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/free_light_cone.webp" width="175"></img>
+                <img src="/free_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Memory's Curtain Never Falls</i></strong></span>
               </th>
@@ -923,7 +923,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/Icon_HP.webp" width="150"></img>
+                <img src="/Icon_HP.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Hight Base HP Light Cones</strong></p></span>
               </th>
@@ -955,7 +955,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img class="relic" src="src/assets/warrior_goddess_relic.png" width="120"></img>
+                <img class="relic" src="/warrior_goddess_relic.png" width="120"></img>
                 <br></br>
                 <span><p><strong>4-PC Warrior Goddess of Sun and Thunder</strong></p></span>
               </th>
@@ -966,10 +966,10 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img class="combine-2PC" src="src/assets/messenger_relic.png" width="70"></img>
-                <img class="combine-2PC" src="src/assets/sacerdos_relic.png" width="70"></img>
-                <img class="combine-2PC" src="src/assets/passerby_relic.png" width="70"></img>
-                <img class="combine-2PC" src="src/assets/longevous_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/messenger_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/sacerdos_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/passerby_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/longevous_relic.png" width="70"></img>
                 <br></br>
                 <span><p><strong>2-PC combinations</strong></p></span>
               </th>
@@ -993,7 +993,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img class="relic" src="src/assets/grove_planar.png" width="120"></img>
+                <img class="relic" src="/grove_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Giant Tree of Rapt Brooding</strong></p></span>
               </th>
@@ -1003,7 +1003,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img class="relic" src="src/assets/aidonia_planar.png" width="120"></img>
+                <img class="relic" src="/aidonia_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Bone Collection's Serene Demesne</strong></p></span>
               </th>
@@ -1013,7 +1013,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img class="relic" src="src/assets/brokenkeel_planar.png" width="120"></img>
+                <img class="relic" src="/brokenkeel_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Broken Keel</strong></p></span>
               </th>
@@ -1037,22 +1037,22 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/body_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/body_piece.png" width="50"></img>
                 <span><p><storng>Body</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/boot_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/boot_piece.png" width="50"></img>
                 <span><p><storng>Boots</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/orb_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/orb_piece.png" width="50"></img>
                 <span><p><storng>Sphere</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/rope_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/rope_piece.png" width="50"></img>
                 <span><p><storng>Link Rope</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
@@ -1145,7 +1145,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/hyacine_light_cone.webp" width="175"></img>
+                <img src="/hyacine_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Long May Rainbows Adorn the Sky</i></strong></span>
               </th>
@@ -1157,7 +1157,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/aglaea_light_cone.webp" width="175"></img>
+                <img src="/aglaea_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Time Woven Into Gold</i></strong></span>
               </th>
@@ -1168,7 +1168,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/castorice_light_cone.webp" width="175"></img>
+                <img src="/castorice_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Make Farewells More Beautiful</i></strong></span>
               </th>
@@ -1180,7 +1180,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/free_light_cone.webp" width="175"></img>
+                <img src="/free_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Memory's Curtain Never Falls</i></strong></span>
               </th>
@@ -1191,7 +1191,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/Icon_HP.webp" width="150"></img>
+                <img src="/Icon_HP.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Hight Base HP Light Cones</strong></p></span>
               </th>
@@ -1223,7 +1223,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img class="relic" src="src/assets/warrior_goddess_relic.png" width="120"></img>
+                <img class="relic" src="/warrior_goddess_relic.png" width="120"></img>
                 <br></br>
                 <span><p><strong>4-PC Warrior Goddess of Sun and Thunder</strong></p></span>
               </th>
@@ -1234,7 +1234,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img class="relic" src="src/assets/hero_relic.png" width="120"></img>
+                <img class="relic" src="/hero_relic.png" width="120"></img>
                 <br></br>
                 <span><p><strong>4-PC Hero of Triumphant Song</strong></p></span>
               </th>
@@ -1245,10 +1245,10 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img class="combine-2PC" src="src/assets/messenger_relic.png" width="70"></img>
-                <img class="combine-2PC" src="src/assets/sacerdos_relic.png" width="70"></img>
-                <img class="combine-2PC" src="src/assets/passerby_relic.png" width="70"></img>
-                <img class="combine-2PC" src="src/assets/longevous_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/messenger_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/sacerdos_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/passerby_relic.png" width="70"></img>
+                <img class="combine-2PC" src="/longevous_relic.png" width="70"></img>
                 <br></br>
                 <span><p><strong>2-PC combinations</strong></p></span>
               </th>
@@ -1272,7 +1272,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img class="relic" src="src/assets/grove_planar.png" width="120"></img>
+                <img class="relic" src="/grove_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Giant Tree of Rapt Brooding</strong></p></span>
               </th>
@@ -1282,7 +1282,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img class="relic" src="src/assets/aidonia_planar.png" width="120"></img>
+                <img class="relic" src="/aidonia_planar.png" width="120"></img>
                 <br></br>
                 <span><p><strong>Bone Collection's Serene Demesne</strong></p></span>
               </th>
@@ -1305,22 +1305,22 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/body_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/body_piece.png" width="50"></img>
                 <span><p><storng>Body</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/boot_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/boot_piece.png" width="50"></img>
                 <span><p><storng>Boots</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/orb_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/orb_piece.png" width="50"></img>
                 <span><p><storng>Sphere</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
               <th style={{width: '25%'}}>
-                <img class="relic-part-image" src="src/assets/rope_piece.png" width="50"></img>
+                <img class="relic-part-image" src="/rope_piece.png" width="50"></img>
                 <span><p><storng>Link Rope</storng></p></span>
                 <div class="block-spacer-small"></div>
               </th>
@@ -1407,7 +1407,7 @@ function App() {
         <Accordion title="E1 Description">
           <div class="E1-or-S1-box-grid">
             <div class="image-and-name">
-              <img src="src/assets/E1_art.png" width="100%"/>
+              <img src="/E1_art.png" width="100%"/>
               <p><em><strong>Cradle the Candle of Night</strong></em></p>
             </div>
             <div class="image-and-name-description">
@@ -1424,7 +1424,7 @@ function App() {
         <Accordion title="S1 Description">
           <div class="E1-or-S1-box-grid">
             <div class="image-and-name">
-              <img src="src/assets/hyacine_light_cone.webp" width="100%"/>
+              <img src="/hyacine_light_cone.webp" width="100%"/>
               <p><em><strong>Long May Rainbows Adorn the Sky</strong></em></p>
             </div>
             <div class="image-and-name-description">
@@ -1471,7 +1471,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/castorice.webp" width="150"></img>
+                <img src="/castorice.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Castorice</strong></p></span>
               </th>
@@ -1482,7 +1482,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/mydei.webp" width="150"></img>
+                <img src="/mydei.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Mydei</strong></p></span>
               </th>
@@ -1493,7 +1493,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/therta.webp" width="150"></img>
+                <img src="/therta.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>The Herta</strong></p></span>
               </th>
@@ -1504,7 +1504,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/acheron.webp" width="150"></img>
+                <img src="/acheron.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Acheron</strong></p></span>
               </th>
@@ -1514,7 +1514,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/blade.webp" width="150"></img>
+                <img src="/blade.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Blade</strong></p></span>
               </th>
@@ -1525,7 +1525,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/feixiao.webp" width="150"></img>
+                <img src="/feixiao.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Feixiao</strong></p></span>
               </th>
@@ -1536,7 +1536,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/jingliu.webp" width="150"></img>
+                <img src="/jingliu.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Jingliu</strong></p></span>
               </th>
@@ -1559,7 +1559,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/rmc.webp" width="150"></img>
+                <img src="/rmc.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Trailblazer (Remembrance)</strong></p></span>
               </th>
@@ -1570,7 +1570,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/sunday.webp" width="150"></img>
+                <img src="/sunday.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Sunday</strong></p></span>
               </th>
@@ -1581,7 +1581,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img src="src/assets/tribbie.webp" width="150"></img>
+                <img src="/tribbie.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Tribbie</strong></p></span>
               </th>
@@ -1591,7 +1591,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/ruanmei.webp" width="150"></img>
+                <img src="/ruanmei.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Ruan Mei</strong></p></span>
               </th>
@@ -1602,7 +1602,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/pela.webp" width="150"></img>
+                <img src="/pela.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Pela</strong></p></span>
               </th>
@@ -1613,7 +1613,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/jiaoqiu.webp" width="150"></img>
+                <img src="/jiaoqiu.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Jiaoqiu</strong></p></span>
               </th>
@@ -1624,7 +1624,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img src="src/assets/cipher.webp" width="150"></img>
+                <img src="/cipher.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Cipher</strong></p></span>
               </th>
@@ -1656,7 +1656,7 @@ function App() {
           <table class="table-info-block">
             <tr>
               <th class="table-info-image" style={{width: '25%'}}>
-                <img class="sustainer-icon" src="src/assets/Icon_Preservation.webp" width="70"></img>
+                <img class="sustainer-icon" src="/Icon_Preservation.webp" width="70"></img>
                 <br></br>
                 <span><p><strong>Shielders</strong></p></span>
               </th>
@@ -1666,7 +1666,7 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
-                <img class="sustainer-icon" src="src/assets/Icon_Abundance.webp" width="70"></img>
+                <img class="sustainer-icon" src="/Icon_Abundance.webp" width="70"></img>
                 <br></br>
                 <span><p><strong>Healers</strong></p></span>
               </th>
@@ -1687,8 +1687,8 @@ function App() {
         <div class="block-spacer-small"></div>
         <div class="container">
           <div class="rmc-and-hyacine">
-            <img src="src/assets/hyacine.webp" width="200"></img>
-            <img src="src/assets/rmc.webp" width="200"></img>
+            <img src="/hyacine.webp" width="200"></img>
+            <img src="/rmc.webp" width="200"></img>
           </div>
         </div>
         <div class="block-spacer-small"></div>
@@ -1724,7 +1724,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-hyacine-solo.png"></img>
+          <img class="team-image" src="/team-image-box-hyacine-solo.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1752,7 +1752,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-castorice.png"></img>
+          <img class="team-image" src="/team-image-box-castorice.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1771,7 +1771,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-mydei.png"></img>
+          <img class="team-image" src="/team-image-box-mydei.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1791,7 +1791,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-therta.png"></img>
+          <img class="team-image" src="/team-image-box-therta.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1811,7 +1811,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-acheron.png"></img>
+          <img class="team-image" src="/team-image-box-acheron.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1830,7 +1830,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-blade.png"></img>
+          <img class="team-image" src="/team-image-box-blade.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1857,7 +1857,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-hyacine-solo.png"></img>
+          <img class="team-image" src="/team-image-box-hyacine-solo.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1885,7 +1885,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-hyacine-best-team.png"></img>
+          <img class="team-image" src="/team-image-box-hyacine-best-team.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1906,7 +1906,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-second-best.png"></img>
+          <img class="team-image" src="/team-image-box-second-best.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1927,7 +1927,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-third-best.png"></img>
+          <img class="team-image" src="/team-image-box-third-best.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
@@ -1947,7 +1947,7 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <img class="team-image" src="src/assets/team-image-box-F2P.png"></img>
+          <img class="team-image" src="/team-image-box-F2P.png"></img>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
