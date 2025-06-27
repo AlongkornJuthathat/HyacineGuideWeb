@@ -2027,7 +2027,7 @@ function App() {
         <div class="container">
           <div class="footer">
             <p>Hyacine Guide • Built by <a href="https://github.com/AlongkornJuthathat">TeeNoDie</a></p>
-            <p>Website Feedback on Discord <a href="https://discordapp.com/users/520916442162528256">Click Here</a></p>
+            <p>Website Feedback on Discord <a href="https://discord.com/users/520916442162528256">Click Here</a></p>
             <p>© All rights reserved by Hoyoverse. Other properties belong to their respective owners.</p>
           </div>
         </div>
