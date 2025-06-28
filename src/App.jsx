@@ -1576,7 +1576,8 @@ function App() {
               </th>
               <td class="table-info-text">
                 <p>Sunday provides powerful team buffs including 100% Action Advance, bonus DMG%, and increased CRIT DMG.</p><br></br>
-                <p>On top of that, he also helps generate additional energy for Hyacine, allowing her to run an HP rope instead of relying on Energy Regeneration.</p>
+                <p>On top of that, he also helps generate additional energy for Hyacine, allowing her to run an HP rope instead of relying on Energy Regeneration.</p><br></br>
+                <p>Although Sunday is already a powerful buffer for Hyacine, his E1 further enhances his support by granting Little Ica a 40% DEF Ignore buff, this is a significant boost to Hyacine’s overall DPS.</p>
               </td>
             </tr>
             <tr>
@@ -1586,7 +1587,8 @@ function App() {
                 <span><p><strong>Tribbie</strong></p></span>
               </th>
               <td class="table-info-text">
-                <p>Tribbie is undoubtedly one of the strongest buffers for Hyacine. She provides incredibly powerful RES-PEN and increased DMG Taken for all enemies, while also contributing impressive personal damage.</p>
+                <p>Tribbie is undoubtedly one of the strongest buffers for Hyacine. She provides incredibly powerful RES-PEN and increased DMG Taken for all enemies, while also contributing impressive personal damage.</p><br></br>
+                <p>E1 Tribbie is also a significant upgrade for Hyacine. It adds bonus True DMG whenever an ally attacks. If the attack hits 5 enemies, the extra damage is redirected to the enemy with the highest HP, greatly boosting Hyacine's single-target damage potential.</p>
               </td>
             </tr>
             <tr>
