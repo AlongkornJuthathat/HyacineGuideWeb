@@ -1113,7 +1113,7 @@ function App() {
         <div class="container">
           <div class="substats-recommend-box">
             <div class="substats-recommend-box-text">
-              SPD &gt; HP% &gt; CRIT DMG ≥ Effect RES
+              SPD &gt; HP% &gt; CRIT DMG &gt; Effect RES
             </div>
           </div>
         </div>
