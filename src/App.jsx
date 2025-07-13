@@ -923,6 +923,17 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
+                <img src="/the-story-next-page.png" width="175"></img>
+                <br></br>
+                <span><strong><i>The Story's Next Page</i></strong></span>
+              </th>
+              <td class="table-info-text">
+                <p>The best 4-star Light Cone from the Battle Pass offers Max HP and Outgoing Healing, both of which fully benefit Hyacine and Little Ica.</p><br></br>
+                <p>However, since it doesn’t provide any SPD boost, Hyacine may struggle to reach the 200 SPD threshold, which causes its performance to fall behind <em>Memory’s Curtain Never Falls</em>.</p>
+              </td>
+            </tr>
+            <tr>
+              <th class="table-info-image">
                 <img src="/Icon_HP.webp" width="150"></img>
                 <br></br>
                 <span><p><strong>Hight Base HP Light Cones</strong></p></span>
@@ -1187,6 +1198,17 @@ function App() {
               <td class="table-info-text">
                 <p>Best free 5★ Light Cone option for Hyacine from Herta's Store, providing a straightforward SPD for wearer and DMG dealt by all allies.</p><br></br>
                 <p>Worth buying especially if can't afford Hyacine's signature Light Cone.</p>
+              </td>
+            </tr>
+            <tr>
+              <th class="table-info-image">
+                <img src="/the-story-next-page.png" width="175"></img>
+                <br></br>
+                <span><strong><i>The Story's Next Page</i></strong></span>
+              </th>
+              <td class="table-info-text">
+                <p>The best 4-star Light Cone from the Battle Pass offers Max HP and Outgoing Healing, both of which fully benefit Hyacine and Little Ica.</p><br></br>
+                <p>However, since it doesn’t provide any SPD boost, Hyacine may struggle to reach the 200 SPD threshold, which causes its performance to fall behind <em>Memory’s Curtain Never Falls</em>.</p>
               </td>
             </tr>
             <tr>
@@ -1633,6 +1655,16 @@ function App() {
                 <p>In addition to providing DMG Taken increase and DEF reduction, Cipher also contributes with high personal damage, which increase overall team dps.</p>
               </td>
             </tr>
+            <tr>
+              <th class="table-info-image">
+                <img src="/Silver_Wolf.webp" width="150"></img>
+                <br></br>
+                <span><p><strong>Silver Wolf</strong></p></span>
+              </th>
+              <td class="table-info-text">
+                <p>After receiving a buff in Version 3.4, Silver Wolf gains the ability to apply DEF reduction to all enemies and now prioritizes implanting elemental weakness based on the element of the first ally in the team, significantly improving her consistency and team synergy.</p>
+              </td>
+            </tr>
           </table>
         </div>
         <div class="block-spacer-large"></div>
@@ -2020,6 +2052,7 @@ function App() {
         <div class="container">
           <ul class="change-log">
             <li>25 June 2025 – Published for v3.4</li>
+            <li>13 July 2025 – Add Silver Wolf and The Story's Next Page</li>
           </ul>
         </div>
         <div class="block-spacer-large"></div>
