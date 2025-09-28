@@ -586,7 +586,7 @@ function App() {
         {/* updated version */}
         <div class="container">
           <div id="updated-version">
-            <i>Latest Updated for Version 3.4</i>
+            <i>Latest Updated for Version 3.6</i>
           </div>
         </div>
 
@@ -912,6 +912,17 @@ function App() {
             </tr>
             <tr>
               <th class="table-info-image">
+                <img src="/evernight_light_cone.png" width="175"></img>
+                <br></br>
+                <span><strong><i>To Evernight's Stars</i></strong></span>
+              </th>
+              <td class="table-info-text">
+                <p>Evernight's signature Light Cone. Provide high Max HP and DMG for both Hyacine and Little Ica.</p><br></br>
+                <p>The downside is that the DEF Ignore from this Light Cone cannot stack, and it also provides no SPD, making it difficult for Hyacine to reach 200 SPD threshold.</p>
+              </td>
+            </tr>
+            <tr>
+              <th class="table-info-image">
                 <img src="/free_light_cone.webp" width="175"></img>
                 <br></br>
                 <span><strong><i>Memory's Curtain Never Falls</i></strong></span>
@@ -973,6 +984,16 @@ function App() {
               <td class="table-info-text">
                 <p>Hyacine’s best Relic Set, fully benefiting her and Little Ica.</p><br></br>
                 <p>The 4-PC Set Effect require wearer to provide healing on ally targets. Thanks to her Technique, Hyacine can activate the 4-PC Set Effect at the start of the battle.</p>
+              </td>
+            </tr>
+            <tr>
+              <th class="table-info-image" style={{width: '25%'}}>
+                <img class="relic" src="/world-remaking.png" width="120"></img>
+                <br></br>
+                <span><p><strong>4-PC World-Remaking Deliverer</strong></p></span>
+              </th>
+              <td class="table-info-text">
+                <p>Although the 2-piece set effect is useless for Hyacine, the 4-piece set effect increases Max HP for both the wearer and their memosprite. This boosts the healing of Hyacine and Little Ica, while also increasing all allies’ DMG.</p>
               </td>
             </tr>
             <tr>
@@ -1187,6 +1208,17 @@ function App() {
                 <p>Castorice’s signature and third best Light Cone option for Hyacine. Offers high Base HP, an HP Boost, DEF Ignore, and an Action Advance when Little Ica leaves the field.</p><br></br>
                 <p>The HP provided by this Light Cone already makes it a good option, and the DEF ignore on top makes it an incredibly powerful option.</p><br></br>
                 <p>But without SPD from the Light Cone, reaching 200 SPD becomes difficult for Hyacine, lowering her overall healing performance.</p>
+              </td>
+            </tr>
+            <tr>
+              <th class="table-info-image">
+                <img src="/evernight_light_cone.png" width="175"></img>
+                <br></br>
+                <span><strong><i>To Evernight's Stars</i></strong></span>
+              </th>
+              <td class="table-info-text">
+                <p>Evernight's signature Light Cone. Provide high Max HP and DMG for both Hyacine and Little Ica.</p><br></br>
+                <p>The downside is that the DEF Ignore from this Light Cone cannot stack, and it also provides no SPD, making it difficult for Hyacine to reach 200 SPD threshold.</p>
               </td>
             </tr>
             <tr>
@@ -1503,6 +1535,17 @@ function App() {
               </td>
             </tr>
             <tr>
+              <th class="table-info-image" style={{width: '25%'}}>
+                <img src="/evernight.png" width="150"></img>
+                <br></br>
+                <span><p><strong>Evernight</strong></p></span>
+              </th>
+              <td class="table-info-text">
+                <p>One way for Evernight to accumulate her stacks is through the HP drain mechanic.</p><br></br>
+                <p>Since Evernight requires HP drain to gain her stacks, Hyacine with her signature Light Cone becomes the ideal partner. She provides frequent and powerful teamwide healing, along with a rare max HP buff for the entire team, further boosting Evernight’s personal damage.</p>
+              </td>
+            </tr>
+            <tr>
               <th class="table-info-image">
                 <img src="/mydei.webp" width="150"></img>
                 <br></br>
@@ -1790,10 +1833,10 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <p class="team-composition"><strong>Castorice - Tribbie - Trailblazer (Remembrance) - Hyacine</strong></p>
+          <p class="team-composition"><strong>Castorice - Tribbie - Evernight - Hyacine</strong></p>
         </div>
         <div class="block-spacer-small"></div>
-        <p>The premium Castorice team, taking advantage of the damage amplification abilities of Trailblazer (Remembrance), Tribbie and Hyacine to maximize the damage Castorice and Netherwing can do.</p><br></br>
+        <p>The premium Castorice team, taking advantage of the damage amplification abilities of Evernight, Tribbie and Hyacine to maximize the damage Castorice and Netherwing can do.</p><br></br>
         <p>Hyacine rounds out the team as a strong sustain option who brings yet another memosprite, The team’s high SP efficiency also allows Hyacine to always use her Skill, improving her Ultimate uptime, personal damage and Newbud generation even further!</p>
         <div class="block-spacer-large"></div>
 
@@ -1923,12 +1966,12 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <p class="team-composition"><strong>Hyacine - Tribbie - Trailblazer (Remembrance) - Sunday</strong></p>
+          <p class="team-composition"><strong>Hyacine - Tribbie - Evernight - Trailblazer (Remembrance)</strong></p>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <p>Tribbie provides RES-PEN and increased DMG Taken, Remembrance Trailblazer contributes True DMG and CRIT DMG, while Sunday offers DMG% and CRIT DMG. Each of them offers a different type of buff, ensuring that Hyacine’s stats isn’t oversaturated by one buff.</p><br></br>
-          <p>Sunday and the Remembrance Trailblazer also provide 100% Action Advance to Hyacine, allowing her to take turns more frequently, which translates into more healing, more damage, and overall increased DPS.</p>
+          <p>Tribbie provides RES-PEN and increased DMG Taken, Remembrance Trailblazer adds True DMG and CRIT DMG, while Evernight offers Vulnerability, DEF Ignore, and CRIT DMG, along with strong synergy with memosprite-based characters. Each delivers a distinct type of buff, preventing Hyacine’s stats from being oversaturated by any single effect.</p><br></br>
+          <p>Remembrance Trailblazer also provides a 100% Action Advance to Hyacine, allowing her to act more frequently. Both Evernight and RMC come with their own memosprites, giving Hyacine additional healing targets, amplifying team damage, and ultimately boosting overall DPS.</p>
         </div>
         <div class="block-spacer-large"></div>
         
@@ -1944,12 +1987,12 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <p class="team-composition"><strong>Hyacine - Tribbie - Trailblazer (Remembrance) - Ruan Mei</strong></p>
+          <p class="team-composition"><strong>Hyacine - Tribbie - Trailblazer (Remembrance) - Sunday</strong></p>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <p>While Ruan Mei offers strong DMG% and RES-PEN buffs to Hyacine, her lack of Action Advance, combined with the fact that Hyacine already have self DMG%, results in slightly lower overall DPS compared to what Sunday provides.</p><br></br>
-          <p>However, this changes in the case of E1 Ruan Mei. Her DEF-Ignore buff provides a significant DPS boost. Especially valuable for Hyacine, who lacks any DEF-Ignore. As a result, E1 Ruan Mei can slightly outperform an E0S1 Sunday in overall team synergy and damage output.</p>
+          <p>Tribbie provides RES-PEN and increased DMG Taken, Remembrance Trailblazer contributes True DMG and CRIT DMG, while Sunday offers DMG% and CRIT DMG. Each of them offers a different type of buff, ensuring that Hyacine’s stats isn’t oversaturated by one buff.</p><br></br>
+          <p>Sunday and Remembrance Trailblazer also provide 100% Action Advance to Hyacine, allowing her to take turns more frequently, which translates into more healing, more damage, and overall increased DPS.</p>
         </div>
         <div class="block-spacer-large"></div>
 
@@ -1965,11 +2008,12 @@ function App() {
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <p class="team-composition"><strong>Hyacine - Ruan Mei - Trailblazer (Remembrance) - Sunday</strong></p>
+          <p class="team-composition"><strong>Hyacine - Tribbie - Cipher - Sunday</strong></p>
         </div>
         <div class="block-spacer-small"></div>
         <div class="container">
-          <p>A hypercarry Hyacine team without Tribbie may stack high amounts of DMG% and CRIT DMG, but it lacks important buffs like RES-PEN and increased DMG Taken. Tribbie, especially with her Signature Light Cone, not only provides those buffs but also adds a significant amount of CRIT DMG, making teams that include her perform noticeably better.</p>
+          <p>Swapping Remembrance Trailblazer for Cipher offers a different benefit. While Hyacine loses the True DMG and CRIT DMG buffs, this trade-off is compensated by Cipher’s DEF Ignore, Vulnerability, and her own personal damage contribution</p><br></br>
+          <p>This may reduce Hyacine’s own personal damage, but the trade-off results in higher overall DPS thanks to Cipher’s personal damage contribution.</p>
         </div>
         <div class="block-spacer-large"></div>
 
@@ -2055,6 +2099,7 @@ function App() {
           <ul class="change-log">
             <li>25 June 2025 – Published for v3.4</li>
             <li>13 July 2025 – Add Silver Wolf and The Story's Next Page</li>
+            <li>28 September 2025 – Add Evernight and World-Remaking Deliverer</li>
           </ul>
         </div>
         <div class="block-spacer-large"></div>
